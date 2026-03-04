@@ -46,7 +46,7 @@ status-website:
     }
 
     /* 3. Hide 'Hirempire Status' text next to the logo in the nav */
-    nav a[href="/"], header a[href="/"] {
+    nav a.brand {
       font-size: 0 !important;
       color: transparent !important;
     }
@@ -69,7 +69,7 @@ status-website:
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
   
-  # We keep this for the browser tab <title>, but it is hidden in the UI via CSS above
+  # Keeping this for the browser tab <title>
   name: "Hirempire Status"
   introTitle: "Hirempire Service Status"
   introMessage: Real-time monitoring of our core infrastructure and services.
@@ -81,20 +81,19 @@ status-website:
     - title: Platform
       href: https://hirempire.com
 
-  meta:
-    # Basic SEO Description
-    - name: "description"
-      content: "Real-time monitoring of Hirempire's core infrastructure and services."
+  # SAFE INJECTION FOR SOCIAL TAGS
+  customHeadHtml: |
+    <meta name="description" content="Real-time monitoring of Hirempire's core infrastructure and services." />
     
-    # Open Graph (Facebook, WhatsApp, LinkedIn, Slack)
-    - property: "og:title"
-      content: "Hirempire Platform Status"
-    - property: "og:description"
-      content: "Check the real-time status of Hirempire's API and Database."
-    - property: "og:image"
-      content: "https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg"
-    - property: "og:type"
-      content: "website"
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hirempire Platform Status" />
+    <meta property="og:description" content="Check the real-time status of Hirempire's API and Database." />
+    <meta property="og:image" content="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hirempire Platform Status" />
+    <meta name="twitter:description" content="Check the real-time status of Hirempire's API and Database." />
+    <meta name="twitter:image" content="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg" />
 
 # Safely removes the "Powered by Upptime" footer text
 i18n:

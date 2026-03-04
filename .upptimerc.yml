@@ -15,7 +15,7 @@ status-website:
   cname: status.hirempire.com
   
   # BaseURL is ignored when using a CNAME, but kept for fallback
-  baseUrl: /
+  baseUrl: ""
   head: <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap">
   
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg

@@ -8,28 +8,31 @@ sites:
     url: https://data.hirempire.com/health
   - name: API
     url: https://api.hirempire.com
-  - name: Forward Email (IPv6)
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
 
 # Status Website Customization
 status-website:
-  # If using a custom domain (e.g., status.hirempire.com), uncomment the 'cname' line below:
+  # Using your custom domain
   cname: status.hirempire.com
   
-  # Default GitHub Pages URL: /status
+  # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: /status
   
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   name: Hirempire Status
   introTitle: "**Hirempire** Service Status"
-  introMessage: This page monitors the real-time health of our database, API, and core infrastructure. Powered by GitHub Actions.
+  introMessage: Real-time monitoring of our core infrastructure and services.
   
-navbar:
+  # Theme Settings
+  theme:
+    primaryColor: "#3349c0"
+    accentColor: "#3349c0"
+    backgroundColor: "#ffffff"
+    textColor: "#333333"
+
+  # Navigation Menu
+  navbar:
     - title: Status
-      href: /status
+      href: /
     - title: Main Site
       href: https://hirempire.com
     - title: Support

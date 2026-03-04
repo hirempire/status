@@ -4,6 +4,9 @@ repo: status
 
 # Monitoring Targets
 sites:
+  - name: Platform
+    url: https://hirempire.com
+    icon: https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg
   - name: Database
     url: https://data.hirempire.com/health
     icon: https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg

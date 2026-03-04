@@ -16,7 +16,10 @@ status-website:
   
   # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: ""
-  head: <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap">
+  head: <style>
+          @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+          body, html, * { font-family: 'Manrope', sans-serif !important; }
+        </style>
   
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg

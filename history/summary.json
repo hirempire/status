@@ -1,5 +1,23 @@
 [
   {
+    "name": "Platform",
+    "url": "https://hirempire.com",
+    "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
+    "slug": "platform",
+    "status": "up",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 1772,
+    "timeDay": 1772,
+    "timeWeek": 1772,
+    "timeMonth": 1772,
+    "timeYear": 1772,
+    "dailyMinutesDown": {}
+  },
+  {
     "name": "Database",
     "url": "https://data.hirempire.com/health",
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
@@ -10,11 +28,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 177,
-    "timeDay": 177,
-    "timeWeek": 177,
-    "timeMonth": 177,
-    "timeYear": 177,
+    "time": 180,
+    "timeDay": 180,
+    "timeWeek": 180,
+    "timeMonth": 180,
+    "timeYear": 180,
     "dailyMinutesDown": {}
   },
   {
@@ -28,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 218,
-    "timeDay": 218,
-    "timeWeek": 218,
-    "timeMonth": 218,
-    "timeYear": 218,
+    "time": 223,
+    "timeDay": 223,
+    "timeWeek": 223,
+    "timeMonth": 223,
+    "timeYear": 223,
     "dailyMinutesDown": {}
   }
 ]

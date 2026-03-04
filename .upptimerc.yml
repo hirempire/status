@@ -72,7 +72,7 @@ status-website:
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
   
   # Keeping this for the browser tab <title>
-  name: "Hirempire Status"
+  name: ""
   introTitle: "Hirempire Service Status"
   introMessage: Real-time monitoring of our core infrastructure and services.
   

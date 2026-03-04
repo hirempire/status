@@ -18,6 +18,7 @@ status-website:
   baseUrl: /
   
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
+  favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
   name: Hirempire Status
   introTitle: "**Hirempire** Service Status"
   introMessage: Real-time monitoring of our core infrastructure and services.
@@ -35,7 +36,4 @@ status-website:
       href: /
     - title: Main Site
       href: https://hirempire.com
-    - title: Support
-      href: mailto:support@hirempire.com
-    - title: GitHub
-      href: https://github.com/hirempire/status
+

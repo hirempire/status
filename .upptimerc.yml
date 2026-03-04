@@ -23,7 +23,7 @@ status-website:
   introMessage: Real-time monitoring of our core infrastructure and services.
   
   # Theme Settings
-  theme:
+  theme: 
     primaryColor: "#3349c0"
     accentColor: "#3349c0"
     backgroundColor: "#ffffff"

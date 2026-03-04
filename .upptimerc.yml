@@ -34,7 +34,7 @@ status-website:
     accentColor: "#3349c0"
     backgroundColor: "#ffffff"
     textColor: "#333333"
-    fontFamily: "'Manrope', system-ui, -apple-system, sans-serif"
+    fontFamily: "'Manrope', sans-serif"
 
   # Navigation Menu
   navbar:

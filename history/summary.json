@@ -41,16 +41,18 @@
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "api",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.90%",
+    "uptimeDay": "99.90%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
     "time": 238,
     "timeDay": 238,
     "timeWeek": 238,
     "timeMonth": 238,
     "timeYear": 238,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-03-04": 0
+    }
   }
 ]

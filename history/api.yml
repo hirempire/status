@@ -1,7 +1,7 @@
 url: https://api.hirempire.com/v1/status
-status: down
-code: 404
-responseTime: 234
-lastUpdated: 2026-03-04T21:36:27.957Z
+status: up
+code: 200
+responseTime: 131
+lastUpdated: 2026-03-04T21:50:46.796Z
 startTime: 2026-03-04T18:15:18.680Z
 generator: Upptime <https://github.com/upptime/upptime>

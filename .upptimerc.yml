@@ -6,8 +6,10 @@ repo: status
 sites:
   - name: Database
     url: https://data.hirempire.com/health
+    icon: https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg
   - name: API
     url: https://api.hirempire.com
+    icon: https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg
 
 # Status Website Customization
 status-website:
@@ -17,28 +19,40 @@ status-website:
   # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: ""
   
-  # 1. Correct way to import Google Fonts in Upptime
+  # Font Imports (Manrope & Clash Display)
   links:
     - rel: stylesheet
       href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
+    - rel: stylesheet
+      href: "https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap"
 
-  # 2. Correct way to inject Custom CSS in Upptime
+  # Custom CSS overrides
   css: |
-    /* 1. Base Font & Very Light Green Background */
+    /* 1. Base Font & Restoring White Background */
     body, html, * { 
       font-family: 'Manrope', sans-serif !important; 
     }
     body {
-      background-color: #f4fbf7 !important;
+      background-color: #e0e5ff !important;
     }
 
-    /* 2. Smaller Logo */
+    /* 2. Clash Display specifically for Headings */
+    h1, h2, h3, .intro h1, .intro h1 * {
+      font-family: 'Clash Display', sans-serif !important;
+    }
+
+    /* 3. Hide 'Hirempire Status' text next to the logo in the nav */
+    nav .navbar-brand span, nav a.brand span {
+      display: none !important;
+    }
+
+    /* 4. Smaller Logo */
     img[src*="hirempire-logo"] {
       max-height: 35px !important;
       width: auto !important;
     }
 
-    /* 3. Status Cards: Green Left Border matching your chart */
+    /* 5. Status Cards: Green Left Border matching your chart */
     article {
       border-left: 6px solid #7fdcb7 !important;
       border-radius: 8px !important;
@@ -49,16 +63,19 @@ status-website:
 
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
-  name: Hirempire Status
+  
+  # We keep this for the browser tab <title>, but it is hidden in the UI via CSS above
+  name: Hirempire Status 
   introTitle: "**Hirempire** Service Status"
   introMessage: Real-time monitoring of our core infrastructure and services.
   
-  # Use the default light theme, our CSS block above overrides the colors natively
   theme: light
 
-  # Navigation Menu
+  # Updated Navigation Menu
   navbar:
-    - title: Status
-      href: /
-    - title: Main Site
+    - title: Platform
       href: https://hirempire.com
+
+# Safely removes the "Powered by Upptime" footer text
+i18n:
+  footer: "&nbsp;"

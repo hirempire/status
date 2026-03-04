@@ -16,10 +16,34 @@ status-website:
   
   # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: ""
+  
+  # Custom CSS injection
   head: >
     <style>
+      /* Import Manrope */
       @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
-      body, html, * { font-family: 'Manrope', sans-serif !important; }
+      
+      /* 1. Apply Manrope Font Everywhere */
+      body, html, * { 
+        font-family: 'Manrope', sans-serif !important; 
+      }
+
+      /* 2. Smaller Logo */
+      /* Targets your specific logo image to scale it down */
+      img[src*="hirempire-logo"] {
+        max-height: 35px !important;
+        width: auto !important;
+      }
+
+      /* 3. Left Border on Status Cards */
+      /* Targets the service blocks to add the green border and soften the layout */
+      article {
+        border-left: 6px solid #7fdcb7 !important; /* Green matching your chart */
+        border-radius: 8px !important;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.03) !important; /* Softer, modern shadow */
+        background-color: #ffffff !important;
+        overflow: hidden;
+      }
     </style>
   
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
@@ -30,11 +54,10 @@ status-website:
   
   # Theme Settings
   theme: 
-    primaryColor: "#3349c0"
-    accentColor: "#3349c0"
-    backgroundColor: "#ffffff"
+    primaryColor: "#7fdcb7" # Updated to match your chart color
+    accentColor: "#7fdcb7"
+    backgroundColor: "#f4fbf7" # Very light green background
     textColor: "#333333"
-    fontFamily: "'Manrope', sans-serif"
 
   # Navigation Menu
   navbar:
@@ -42,4 +65,3 @@ status-website:
       href: /
     - title: Main Site
       href: https://hirempire.com
-

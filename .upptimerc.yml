@@ -33,7 +33,7 @@ status-website:
       font-family: 'Manrope', sans-serif !important; 
     }
     body {
-      background-color: #e0e5ff !important;
+      background-color: #f7f9ff !important;
     }
 
     /* 2. Clash Display specifically for Headings */
@@ -54,7 +54,7 @@ status-website:
 
     /* 5. Status Cards: Green Left Border matching your chart */
     article {
-      border-left: 6px solid #7fdcb7 !important;
+      border-left: 6px solid #89e0cf !important;
       border-radius: 8px !important;
       box-shadow: 0 4px 12px rgba(0,0,0,0.03) !important;
       background-color: #ffffff !important;
@@ -65,8 +65,8 @@ status-website:
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
   
   # We keep this for the browser tab <title>, but it is hidden in the UI via CSS above
-  name: Hirempire Status 
-  introTitle: "**Hirempire** Service Status"
+  name: 
+  introTitle: "Hirempire Service Status"
   introMessage: Real-time monitoring of our core infrastructure and services.
   
   theme: light

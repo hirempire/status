@@ -14,7 +14,7 @@
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
 
-name: Graphs
+name: Graphs CI
 on:
   schedule:
     - cron: "0 0 * * *"

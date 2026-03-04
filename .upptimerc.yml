@@ -1,36 +1,38 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Core Configuration
+owner: hirempire
+repo: status
 
+# Monitoring Targets
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
+  - name: Database
+    url: https://data.hirempire.com/health
+  - name: API
+    url: https://api.hirempire.com
+  - name: Forward Email (IPv6)
     url: forwardemail.net
     port: 80
     check: "tcp-ping"
     ipv6: true
 
+# Status Website Customization
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
+  # If using a custom domain (e.g., status.hirempire.com), uncomment the 'cname' line below:
+  cname: status.hirempire.com
+  
+  # Default GitHub Pages URL: /status
+  baseUrl: /status
+  
+  logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
+  name: Hirempire Status
+  introTitle: "**Hirempire** Service Status"
+  introMessage: This page monitors the real-time health of our database, API, and core infrastructure. Powered by GitHub Actions.
+  
+navbar:
     - title: Status
-      href: /
+      href: /status
+    - title: Main Site
+      href: https://hirempire.com
+    - title: Support
+      href: mailto:support@hirempire.com
     - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+      href: https://github.com/hirempire/status

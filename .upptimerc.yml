@@ -53,7 +53,7 @@ status-website:
     }
     
     /* 4. Ensure the logo image stays visible */
-    header a[href="/"] img, .brand img, a.navbar-brand img {
+    .svelte-a08hsz, header a[href="/"] img, .brand img {
       display: inline-block !important;
       max-height: 28px !important;
       width: auto !important;

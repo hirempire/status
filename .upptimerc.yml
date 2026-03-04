@@ -16,6 +16,7 @@ status-website:
   
   # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: /
+  head: <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap">
   
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
@@ -29,6 +30,7 @@ status-website:
     accentColor: "#3349c0"
     backgroundColor: "#ffffff"
     textColor: "#333333"
+    fontFamily: "'Manrope', system-ui, -apple-system, sans-serif"
 
   # Navigation Menu
   navbar:

@@ -17,47 +17,44 @@ status-website:
   # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: ""
   
-  # Custom CSS injection
-  head: >
-    <style>
-      /* Import Manrope */
-      @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
-      
-      /* 1. Apply Manrope Font Everywhere */
-      body, html, * { 
-        font-family: 'Manrope', sans-serif !important; 
-      }
+  # 1. Correct way to import Google Fonts in Upptime
+  links:
+    - rel: stylesheet
+      href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
 
-      /* 2. Smaller Logo */
-      /* Targets your specific logo image to scale it down */
-      img[src*="hirempire-logo"] {
-        max-height: 35px !important;
-        width: auto !important;
-      }
+  # 2. Correct way to inject Custom CSS in Upptime
+  css: |
+    /* 1. Base Font & Very Light Green Background */
+    body, html, * { 
+      font-family: 'Manrope', sans-serif !important; 
+    }
+    body {
+      background-color: #f4fbf7 !important;
+    }
 
-      /* 3. Left Border on Status Cards */
-      /* Targets the service blocks to add the green border and soften the layout */
-      article {
-        border-left: 6px solid #7fdcb7 !important; /* Green matching your chart */
-        border-radius: 8px !important;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.03) !important; /* Softer, modern shadow */
-        background-color: #ffffff !important;
-        overflow: hidden;
-      }
-    </style>
-  
+    /* 2. Smaller Logo */
+    img[src*="hirempire-logo"] {
+      max-height: 35px !important;
+      width: auto !important;
+    }
+
+    /* 3. Status Cards: Green Left Border matching your chart */
+    article {
+      border-left: 6px solid #7fdcb7 !important;
+      border-radius: 8px !important;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03) !important;
+      background-color: #ffffff !important;
+      overflow: hidden;
+    }
+
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
   name: Hirempire Status
   introTitle: "**Hirempire** Service Status"
   introMessage: Real-time monitoring of our core infrastructure and services.
   
-  # Theme Settings
-  theme: 
-    primaryColor: "#7fdcb7" # Updated to match your chart color
-    accentColor: "#7fdcb7"
-    backgroundColor: "#f4fbf7" # Very light green background
-    textColor: "#333333"
+  # Use the default light theme, our CSS block above overrides the colors natively
+  theme: light
 
   # Navigation Menu
   navbar:

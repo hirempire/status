@@ -55,7 +55,7 @@ status-website:
     /* 4. Ensure the logo image stays visible */
     header a[href="/"] img, .brand img, a.navbar-brand img {
       display: inline-block !important;
-      max-height: 35px !important;
+      max-height: 28px !important;
       width: auto !important;
     }
 

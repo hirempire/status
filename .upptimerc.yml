@@ -76,6 +76,20 @@ status-website:
       position: relative;
     }
 
+    /* 7. Fix Top Spacing & Add Logo to History Pages */
+    main.container {
+      padding-top: 40px !important;
+    }
+    
+    main.container h1 {
+      background-image: url('https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg');
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: auto 30px; 
+      padding-top: 55px !important; 
+      margin-top: 10px !important;
+    }
+
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
   

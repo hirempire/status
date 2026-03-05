@@ -1,4 +1,4 @@
-# 📈 Hirempire Service Status
+# <img src="https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg" width="24" height="24" alt="Hirempire Icon"> Hirempire Service Status
 
 Welcome to the official status repository for [Hirempire](https://hirempire.com). We monitor our core infrastructure around the clock to ensure maximum reliability and transparency.
 

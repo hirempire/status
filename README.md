@@ -1,4 +1,6 @@
-# <img src="https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg" height="36" align="absmiddle" alt="Hirempire Icon"> Hirempire Service Status
+<img src="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg" height="38" align="absmiddle" alt="Hirempire Icon"> 
+
+# Hirempire Service Status
 
 Welcome to the official status repository for [Hirempire](https://hirempire.com). We monitor our core infrastructure around the clock to ensure maximum reliability and transparency.
 
@@ -12,7 +14,7 @@ Welcome to the official status repository for [Hirempire](https://hirempire.com)
 
 ### 🔗 Resources & Support
 
-* **Platform:** [hirempire.com](https://hirempire.com)
+* **Platofrm:** [hirempire.com](https://hirempire.com)
 * **Documentation:** [Introduction Guide](https://docs.hirempire.com/introduction)
 * **Developer Docs:** [API Quickstart](https://docs.hirempire.com/developers/get-started)
 * **Contact Support:** [support@hirempire.com](mailto:support@hirempire.com)

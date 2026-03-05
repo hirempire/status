@@ -6,7 +6,7 @@ Welcome to the official status repository for [Hirempire](https://hirempire.com)
 
 ### Live System Status
 
-[![Platform Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhirempire%2Fstatus%2Fmaster%2Fapi%2Fplatform%2Fuptime.json&style=for-the-badge&label=Platform&labelColor=3349c0&color=fff)](https://status.hirempire.com) [![Database Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhirempire%2Fstatus%2Fmaster%2Fapi%2Fdatabase%2Fuptime.json&style=for-the-badge&label=Database&labelColor=3349c0&color=89e0cf)](https://status.hirempire.com) [![API Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhirempire%2Fstatus%2Fmaster%2Fapi%2Fapi%2Fuptime.json&style=for-the-badge&label=API&labelColor=3349c0&color=89e0cf)](https://status.hirempire.com)
+[![Platform Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhirempire%2Fstatus%2Fmaster%2Fapi%2Fplatform%2Fuptime.json&style=for-the-badge&label=Platform&labelColor=3349c0&color=89e0cf)](https://status.hirempire.com) [![Database Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhirempire%2Fstatus%2Fmaster%2Fapi%2Fdatabase%2Fuptime.json&style=for-the-badge&label=Database&labelColor=3349c0&color=89e0cf)](https://status.hirempire.com) [![API Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhirempire%2Fstatus%2Fmaster%2Fapi%2Fapi%2Fuptime.json&style=for-the-badge&label=API&labelColor=3349c0&color=89e0cf)](https://status.hirempire.com)
 
 ---
 

@@ -10,7 +10,7 @@ Welcome to the official status repository for [Hirempire](https://hirempire.com)
 
 ---
 
-🟢 **[View the full interactive status dashboard here](https://status.hirempire.com)**
+<i class="fa-regular fa-circle-check" style="color: rgb(99, 230, 190);"></i> **[View the full interactive status dashboard here](https://status.hirempire.com)**
 
 ### 🔗 Resources & Support
 

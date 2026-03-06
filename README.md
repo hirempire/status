@@ -1,4 +1,4 @@
-<img src="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg" height="38" align="absmiddle" alt="Hirempire Icon"> 
+<img src="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg" height="38" align="absmiddle" alt="Hirempire Icon">
 
 # Hirempire Service Status
 
@@ -14,13 +14,13 @@ Welcome to the official status repository for [Hirempire](https://hirempire.com)
 
 ### 🔗 Resources & Support
 
-* **Platofrm:** [hirempire.com](https://hirempire.com)
-* **Documentation:** [Introduction Guide](https://docs.hirempire.com/introduction)
-* **Developer Docs:** [API Quickstart](https://docs.hirempire.com/developers/get-started)
-* **Contact Support:** [support@hirempire.com](mailto:support@hirempire.com)
+- **Platofrm:** [hirempire.com](https://hirempire.com)
+- **Documentation:** [Introduction Guide](https://docs.hirempire.com/introduction)
+- **Developer Docs:** [API Quickstart](https://docs.hirempire.com/developers/get-started)
+- **Contact Support:** [support@hirempire.com](mailto:support@hirempire.com)
 
 ### About
 
 This repository uses GitHub Actions to run automated uptime checks every 5 minutes. If a service experiences downtime or degraded performance, an incident issue is automatically opened in this repository, and our engineering team is instantly notified via our custom webhooks.
 
-*Powered by [Upptime](https://upptime.js.org/).*
+_Powered by [Upptime](https://upptime.js.org/)._

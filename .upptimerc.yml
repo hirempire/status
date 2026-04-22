@@ -144,7 +144,7 @@ status-website:
         document.addEventListener('DOMContentLoaded', function() {
           const btn = document.createElement('button');
           btn.innerHTML = currentTheme === 'dark' ? '☀️' : '🌙';
-          btn.style.cssText = 'position: absolute; top: 15px; right: 20px; z-index: 1000; background: var(--bg-card); border: 1px solid #89e0cf; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.05);';
+          btn.style.cssText = 'position: absolute; top: 15px; right: 20px; z-index: 1000; background: var(--bg-card); border: 1px solid #3349c0; border-radius: 50%; width: 40px; height: 40px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center; transition: background-color 0.3s ease; box-shadow: 0 4px 6px rgba(0,0,0,0.05);';
           
           document.body.appendChild(btn);
 

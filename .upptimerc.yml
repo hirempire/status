@@ -19,19 +19,15 @@ sites:
 
 # Status Website Customization
 status-website:
-  # Using your custom domain
   cname: status.hirempire.com
-  # BaseURL is ignored when using a CNAME, but kept for fallback
   baseUrl: ""
   
-  # Font Imports (Manrope & Clash Display)
   links:
     - rel: stylesheet
       href: "https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap"
     - rel: stylesheet
       href: "https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap"
   
-  # Custom CSS overrides
   css: |
     /* 1. Base Variables for Theming */
     :root {
@@ -83,9 +79,10 @@ status-website:
       display: inline-block !important;
       max-height: 35px !important;
       width: auto !important;
+      transition: opacity 0.2s ease;
     }
 
-    /* 5. Fix Top Spacing for all pages */
+    /* 5. Fix Top Spacing */
     main.container {
       padding-top: 20px !important;
     }
@@ -95,7 +92,7 @@ status-website:
       margin-top: 0 !important;
     }
 
-    /* 6. Status Cards adapting to Theme */
+    /* 6. Status Cards */
     article {
       border-left: 6px solid #89e0cf !important;
       border-radius: 8px !important;
@@ -114,14 +111,11 @@ status-website:
 
   logoUrl: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg
   favicon: https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.svg
-  
-  # Safe browser tab <title>
   name: "Hirempire Status"
   introTitle: "Hirempire Service Status"
   introMessage: "Real-time monitoring of our core infrastructure and services."
   theme: light
 
-  # SAFE INJECTION FOR SOCIAL TAGS & DARK MODE JS
   customHeadHtml: |
     <meta name="description" content="Real-time monitoring of Hirempire's core infrastructure and services." />
     <meta property="og:type" content="website" />
@@ -129,9 +123,6 @@ status-website:
     <meta property="og:description" content="Check the real-time status of Hirempire's API and Database." />
     <meta property="og:image" content="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Hirempire Platform Status" />
-    <meta name="twitter:description" content="Check the real-time status of Hirempire's API and Database." />
-    <meta name="twitter:image" content="https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-icon.png" />
     <script>
       (function() {
         const savedTheme = localStorage.getItem('theme');
@@ -139,30 +130,56 @@ status-website:
         const currentTheme = savedTheme || (systemPrefersDark ? 'dark' : 'light');
         document.documentElement.setAttribute('data-theme', currentTheme);
 
-        // Updated SVGs with stroke="currentColor" and no fill
+        const logoBlue = "https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-blue.svg";
+        const logoWhite = "https://assets-hirempire.s3.us-east-1.amazonaws.com/hirempire-logo-white.svg";
+        
         const moonSvg = `<svg style="width:24px; height:24px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>`;
         const sunSvg = `<svg style="width:24px; height:24px" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707M17.657 17.657l-.707-.707M6.343 6.343l-.707-.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>`;
+        const backSvg = `<svg style="width:32px; height:32px; margin-right: 12px; cursor: pointer;" viewBox="0 0 640 640"><path fill="currentColor" d="M73.4 297.4C60.9 309.9 60.9 330.2 73.4 342.7L233.4 502.7C245.9 515.2 266.2 515.2 278.7 502.7C291.2 490.2 291.2 469.9 278.7 457.4L173.3 352L544 352C561.7 352 576 337.7 576 320C576 302.3 561.7 288 544 288L173.3 288L278.7 182.6C291.2 170.1 291.2 149.8 278.7 137.3C266.2 124.8 245.9 124.8 233.4 137.3L73.4 297.3z"/></svg>`;
+
+        const updateUI = (theme) => {
+          // Update Logo
+          const logoImg = document.querySelector('a.logo img');
+          if (logoImg) logoImg.src = theme === 'dark' ? logoWhite : logoBlue;
+          
+          // Handle History Page Back Button
+          if (window.location.pathname.includes('/history/')) {
+            const header = document.querySelector('main h1');
+            if (header && !document.getElementById('custom-back-btn')) {
+              const backWrapper = document.createElement('span');
+              backWrapper.id = 'custom-back-btn';
+              backWrapper.innerHTML = backSvg;
+              backWrapper.style.cssText = 'display: inline-flex; align-items: center; vertical-align: middle; color: var(--text-main);';
+              backWrapper.onclick = () => window.history.back();
+              header.style.display = 'flex';
+              header.style.alignItems = 'center';
+              header.prepend(backWrapper);
+            }
+          }
+        };
 
         document.addEventListener('DOMContentLoaded', function() {
-          const btn = document.createElement('button');
-          btn.innerHTML = currentTheme === 'dark' ? sunSvg : moonSvg;
-          
-          // Background and border removed as requested
-          btn.style.cssText = 'position: absolute; top: 15px; right: 20px; z-index: 1000; background: none; border: none; width: 40px; height: 40px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: transform 0.2s ease; color: var(--text-main); padding: 0;';
-          
-          document.body.appendChild(btn);
+          const themeBtn = document.createElement('button');
+          themeBtn.innerHTML = currentTheme === 'dark' ? sunSvg : moonSvg;
+          themeBtn.style.cssText = 'position: absolute; top: 15px; right: 20px; z-index: 1000; background: none; border: none; width: 40px; height: 40px; cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--text-main); padding: 0;';
+          document.body.appendChild(themeBtn);
 
-          btn.addEventListener('click', function() {
+          themeBtn.addEventListener('click', function() {
             const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
             const newTheme = isDark ? 'light' : 'dark';
             document.documentElement.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
-            btn.innerHTML = newTheme === 'dark' ? sunSvg : moonSvg;
+            themeBtn.innerHTML = newTheme === 'dark' ? sunSvg : moonSvg;
+            updateUI(newTheme);
           });
+
+          // SPA Routing support
+          const observer = new MutationObserver(() => updateUI(document.documentElement.getAttribute('data-theme')));
+          observer.observe(document.body, { childList: true, subtree: true });
+          updateUI(currentTheme);
         });
       })();
     </script>
-    
-# Safely removes the "Powered by Upptime" footer text
+
 i18n:
   footer: "&nbsp;"

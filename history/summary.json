@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 1190,
-    "timeDay": 480,
-    "timeWeek": 532,
-    "timeMonth": 939,
-    "timeYear": 1190,
+    "time": 1182,
+    "timeDay": 502,
+    "timeWeek": 541,
+    "timeMonth": 932,
+    "timeYear": 1182,
     "dailyMinutesDown": {}
   },
   {
@@ -23,19 +23,17 @@
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "database",
     "status": "up",
-    "uptime": "99.91%",
+    "uptime": "100.00%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.35%",
-    "uptimeMonth": "99.85%",
-    "uptimeYear": "99.91%",
-    "time": 198,
-    "timeDay": 271,
-    "timeWeek": 250,
-    "timeMonth": 226,
-    "timeYear": 198,
-    "dailyMinutesDown": {
-      "2026-04-16": 65
-    }
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 199,
+    "timeDay": 275,
+    "timeWeek": 254,
+    "timeMonth": 228,
+    "timeYear": 199,
+    "dailyMinutesDown": {}
   },
   {
     "name": "API",
@@ -67,8 +65,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 97,
-    "timeDay": 107,
-    "timeWeek": 104,
+    "timeDay": 104,
+    "timeWeek": 102,
     "timeMonth": 97,
     "timeYear": 97,
     "dailyMinutesDown": {}

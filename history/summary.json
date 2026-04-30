@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 1131,
     "timeDay": 507,
-    "timeWeek": 636,
+    "timeWeek": 607,
     "timeMonth": 768,
     "timeYear": 1131,
     "dailyMinutesDown": {}
@@ -22,18 +22,20 @@
     "url": "https://data.hirempire.com/health",
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "database",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 200,
     "timeDay": 94,
-    "timeWeek": 241,
+    "timeWeek": 211,
     "timeMonth": 237,
     "timeYear": 200,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-04-30": 0
+    }
   },
   {
     "name": "API",
@@ -48,7 +50,7 @@
     "uptimeYear": "100.00%",
     "time": 231,
     "timeDay": 158,
-    "timeWeek": 248,
+    "timeWeek": 238,
     "timeMonth": 252,
     "timeYear": 231,
     "dailyMinutesDown": {}
@@ -66,7 +68,7 @@
     "uptimeYear": "100.00%",
     "time": 93,
     "timeDay": 38,
-    "timeWeek": 85,
+    "timeWeek": 75,
     "timeMonth": 96,
     "timeYear": 93,
     "dailyMinutesDown": {}

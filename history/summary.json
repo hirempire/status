@@ -22,19 +22,19 @@
     "url": "https://data.hirempire.com/health",
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "database",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 200,
-    "timeDay": 94,
-    "timeWeek": 211,
-    "timeMonth": 237,
-    "timeYear": 200,
+    "status": "up",
+    "uptime": "99.90%",
+    "uptimeDay": "94.58%",
+    "uptimeWeek": "99.23%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.90%",
+    "time": 201,
+    "timeDay": 184,
+    "timeWeek": 219,
+    "timeMonth": 238,
+    "timeYear": 201,
     "dailyMinutesDown": {
-      "2026-04-30": 0
+      "2026-04-30": 78
     }
   },
   {

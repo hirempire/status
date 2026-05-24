@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 967,
-    "timeDay": 170,
-    "timeWeek": 266,
-    "timeMonth": 474,
-    "timeYear": 967,
+    "time": 960,
+    "timeDay": 256,
+    "timeWeek": 280,
+    "timeMonth": 428,
+    "timeYear": 960,
     "dailyMinutesDown": {}
   },
   {
@@ -28,14 +28,14 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.70%",
     "uptimeYear": "99.88%",
-    "time": 369,
-    "timeDay": 186,
-    "timeWeek": 205,
-    "timeMonth": 779,
-    "timeYear": 369,
+    "time": 368,
+    "timeDay": 240,
+    "timeWeek": 212,
+    "timeMonth": 822,
+    "timeYear": 368,
     "dailyMinutesDown": {
-      "2026-05-15": 55,
-      "2026-04-30": 78
+      "2026-04-30": 78,
+      "2026-05-15": 55
     }
   },
   {
@@ -50,9 +50,9 @@
     "uptimeMonth": "99.06%",
     "uptimeYear": "99.64%",
     "time": 232,
-    "timeDay": 209,
-    "timeWeek": 238,
-    "timeMonth": 237,
+    "timeDay": 255,
+    "timeWeek": 241,
+    "timeMonth": 235,
     "timeYear": 232,
     "dailyMinutesDown": {
       "2026-05-15": 414
@@ -64,16 +64,16 @@
     "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Model_Context_Protocol_logo.svg",
     "slug": "mcp",
     "status": "up",
-    "uptime": "99.48%",
+    "uptime": "99.49%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.06%",
-    "uptimeYear": "99.48%",
-    "time": 104,
-    "timeDay": 154,
-    "timeWeek": 132,
-    "timeMonth": 112,
-    "timeYear": 104,
+    "uptimeYear": "99.49%",
+    "time": 105,
+    "timeDay": 195,
+    "timeWeek": 138,
+    "timeMonth": 117,
+    "timeYear": 105,
     "dailyMinutesDown": {
       "2026-05-15": 414
     }

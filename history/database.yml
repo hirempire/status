@@ -1,7 +1,7 @@
 url: https://data.hirempire.com/health
-status: up
-code: 200
-responseTime: 280
-lastUpdated: 2026-07-31T00:05:04.439Z
+status: down
+code: 403
+responseTime: 201
+lastUpdated: 2026-07-31T17:55:49.780Z
 startTime: 2026-03-04T18:15:18.208Z
 generator: Upptime <https://github.com/upptime/upptime>

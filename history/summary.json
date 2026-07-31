@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 894,
-    "timeDay": 1469,
-    "timeWeek": 1206,
-    "timeMonth": 1003,
-    "timeYear": 894,
+    "time": 896,
+    "timeDay": 1308,
+    "timeWeek": 1350,
+    "timeMonth": 1013,
+    "timeYear": 896,
     "dailyMinutesDown": {}
   },
   {
@@ -29,8 +29,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.94%",
     "time": 328,
-    "timeDay": 320,
-    "timeWeek": 273,
+    "timeDay": 280,
+    "timeWeek": 278,
     "timeMonth": 268,
     "timeYear": 328,
     "dailyMinutesDown": {
@@ -44,16 +44,16 @@
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "api",
     "status": "up",
-    "uptime": "99.80%",
+    "uptime": "99.81%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.80%",
-    "time": 231,
-    "timeDay": 272,
-    "timeWeek": 220,
-    "timeMonth": 217,
-    "timeYear": 231,
+    "uptimeYear": "99.81%",
+    "time": 232,
+    "timeDay": 283,
+    "timeWeek": 232,
+    "timeMonth": 219,
+    "timeYear": 232,
     "dailyMinutesDown": {
       "2026-05-15": 414
     }
@@ -69,11 +69,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.77%",
-    "time": 136,
-    "timeDay": 199,
-    "timeWeek": 187,
-    "timeMonth": 172,
-    "timeYear": 136,
+    "time": 137,
+    "timeDay": 245,
+    "timeWeek": 205,
+    "timeMonth": 175,
+    "timeYear": 137,
     "dailyMinutesDown": {
       "2026-05-15": 414
     }

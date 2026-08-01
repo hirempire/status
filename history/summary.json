@@ -5,18 +5,19 @@
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "platform",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 892,
-    "timeDay": 691,
-    "timeWeek": 1190,
-    "timeMonth": 983,
-    "timeYear": 892,
+    "uptime": "99.76%",
+    "uptimeDay": "64.63%",
+    "uptimeWeek": "94.95%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "99.76%",
+    "time": 887,
+    "timeDay": 51,
+    "timeWeek": 1009,
+    "timeMonth": 926,
+    "timeYear": 887,
     "dailyMinutesDown": {
-      "2026-07-31": 1
+      "2026-08-01": 145,
+      "2026-07-31": 364
     }
   },
   {
@@ -25,20 +26,21 @@
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "database",
     "status": "down",
-    "uptime": "99.94%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.94%",
-    "time": 327,
-    "timeDay": 241,
-    "timeWeek": 268,
-    "timeMonth": 266,
-    "timeYear": 327,
+    "uptime": "99.70%",
+    "uptimeDay": "64.65%",
+    "uptimeWeek": "94.95%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "99.70%",
+    "time": 325,
+    "timeDay": 115,
+    "timeWeek": 247,
+    "timeMonth": 258,
+    "timeYear": 325,
     "dailyMinutesDown": {
       "2026-04-30": 78,
       "2026-05-15": 55,
-      "2026-07-31": 1
+      "2026-08-01": 145,
+      "2026-07-31": 364
     }
   },
   {
@@ -47,19 +49,20 @@
     "icon": "https://assets-hirempire.s3.us-east-1.amazonaws.com/icon-blue.svg",
     "slug": "api",
     "status": "down",
-    "uptime": "99.81%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.81%",
-    "time": 232,
-    "timeDay": 235,
-    "timeWeek": 226,
-    "timeMonth": 218,
-    "timeYear": 232,
+    "uptime": "99.57%",
+    "uptimeDay": "64.66%",
+    "uptimeWeek": "94.95%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "99.57%",
+    "time": 230,
+    "timeDay": 105,
+    "timeWeek": 211,
+    "timeMonth": 211,
+    "timeYear": 230,
     "dailyMinutesDown": {
       "2026-05-15": 414,
-      "2026-07-31": 0
+      "2026-08-01": 145,
+      "2026-07-31": 364
     }
   },
   {
@@ -68,18 +71,20 @@
     "icon": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Model_Context_Protocol_logo.svg",
     "slug": "mcp",
     "status": "down",
-    "uptime": "99.77%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.77%",
+    "uptime": "99.49%",
+    "uptimeDay": "64.68%",
+    "uptimeWeek": "94.95%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "99.49%",
     "time": 137,
-    "timeDay": 229,
-    "timeWeek": 206,
-    "timeMonth": 176,
+    "timeDay": 127,
+    "timeWeek": 186,
+    "timeMonth": 172,
     "timeYear": 137,
     "dailyMinutesDown": {
-      "2026-05-15": 414
+      "2026-05-15": 414,
+      "2026-08-01": 145,
+      "2026-07-31": 364
     }
   }
 ]
